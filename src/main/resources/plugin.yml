@@ -1,0 +1,14 @@
+name: PayToKeepInventory
+version: ${project.version}
+main: paytokeepinventory.me
+api-version: 1.16
+commands:
+  KeepInv-reload:
+    description: Reload the config file
+    permission: KeepInv.reload
+    permission-message: You can't do that, sorry!
+permissions:
+  KeepInv.reload:
+    description: Reload the config file
+  KeepInv.free:
+    description: Allows you to recouperate your lost items without paying the fee.
