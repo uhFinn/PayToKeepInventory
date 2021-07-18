@@ -1,0 +1,52 @@
+#--[################################################################]
+#--[##################### GENERAL INFORMATION ######################]
+#--[################################################################]
+
+# Don't delete anything below, just edit the fields!
+# General Reminder: true means yes; false means no
+# If you ever feel like you have messed up and need to get the file back to its default state just delete the .yml file and restart the server
+
+# If you have any questions you can always get support at: https://discord.gg/9jyHhUepaG
+
+
+# The below will notify any ops that join the game if a new version of the plugin is available
+Update Notifications: true
+
+#################################################################
+##################### General Configuration #####################
+#################################################################
+
+# The cost to retrieve the players items
+Cost: 1000
+
+# Whether buying back inventory should also award a player their XP back
+KeepXP: true
+
+# Whether instead of just deleting a players items you wish to allow them to choose to retrieve their items by themselves
+AllowSelfRecovery: true
+
+
+#################################################################
+############### GUI Names & Message Customisation ###############
+#################################################################
+
+# The title of the Keep Inventory Options GUI
+MainGuiTitle: "Keep Inventory?"
+
+# The title of the retrieve items GUI
+SecondaryGuiTitle: "Your Items"
+
+# Change the text of the emerald block used to save your inventory
+SaveInventory:
+  Title: "&a&lGet Inventory"
+  SubText: "&fGet your inventory back, This will cost: &a&l$<cost>"
+
+# Change the text of the redstone block if config field: 'AllowSelfRecovery' is set to false
+LoseInventory:
+  Title: "&c&lLose Inventory"
+  SubText: "&fYou will lose your items forever!"
+
+# Change the text of the redstone block if config field: 'AllowSelfRecovery' is set to true
+RetrieveInventory:
+  Title: "&c&lRetrieve items yourself"
+  SubText: "&fYou will have to go and get your items yourself"

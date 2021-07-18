@@ -6,7 +6,7 @@
 
     <groupId>PayToKeepInventory</groupId>
     <artifactId>PayToKeepInventory</artifactId>
-    <version>1.0</version>
+    <version>1.11</version>
     <packaging>jar</packaging>
 
     <name>PayToKeepInventory</name>

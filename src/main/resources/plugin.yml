@@ -1,6 +1,6 @@
 name: PayToKeepInventory
-version: ${project.version}
-main: paytokeepinventory.me
+version: 1.11
+main: uhfinn.paytokeepinventory.Main
 api-version: 1.16
 commands:
   KeepInv-reload:
